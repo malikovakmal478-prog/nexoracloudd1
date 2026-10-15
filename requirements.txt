@@ -1,9 +1,10 @@
 fastapi
 uvicorn[standard]
-sqlalchemy
+sqlalchemy>=2.0
 psycopg[binary]
 jinja2
 python-multipart
 itsdangerous
 pwdlib[argon2]
 httpx
+cryptography
